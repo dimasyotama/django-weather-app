@@ -1,6 +1,6 @@
 # django-weather-app
 
-Projct is created with
+Project is created with
 * [Django 2.2](https://docs.djangoproject.com/en/2.2/)
 * [Bootstrap 4](https://getbootstrap.com/)
 * [OponWeatherMap](https://openweathermap.org/)
@@ -27,6 +27,8 @@ python manage.py runserver
 ```
 
 Your django it's live now open your browser and type 127.0.0.1:8000
+
+
 Because i use mysql for the database you can change the database name,host,port,password and username in the settings.py
 
 
