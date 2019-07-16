@@ -1,0 +1,128 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.0/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />
+    <link rel="stylesheet" href="{% static 'weather/css/about.css' %}">
+</head>
+
+<body>
+   <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+
+                <!-- Navbar brand -->
+            
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="basicExampleNav">
+            
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="{% url 'home' %}">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'about' %}">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'help' %}">How To</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="" class="btn btn-md btn-danger"><i class="fa fa-trash" aria-hidden="true"></i><span> Delete All Data </span></a>
+                <!-- Collapsible content -->
+            
+            </nav>
+            <!--/.Navbar-->
+            <style>
+                .column{
+                    padding:15px
+                }
+            </style>
+ 
+        
+    </section>
+    <br>
+    <div class="kepala">
+         <div class="container">
+            <div class="col-lg-12 has-text-centered">
+                <h1>Welcome to Our </h1>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="brand">
+         <div class="container">
+            <div class="row">
+                <div class="column is-offset-4">
+                  <a href="{% url 'home' %}"><img src="{% static 'weather/logo.png' %}" alt="logo"></a> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="konten">
+        <div class="container">
+            <div class="col-md-12 is-offset-10 text-center">
+                <p>
+                    This is an application for helping user to check weather. You can check weather in every city around the world.
+                    I use django for backend and boostrap for the front end. And also i use API weather map to check weather and i consume
+                    the API with python package <b>"requests"</b>.All the source code i put on my <a href="https://github.com/localhostfotly">github account</a>
+                </p>
+            </div>
+            <div class="col-md-12 text-center">
+                <p class="sapport">Supported by :</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="suport">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://openweathermap.org/"><img src="{% static 'weather/openWeatherMap.png' %}" width="300" alt=""></a> 
+                </div>
+                <div class="col-md-5">
+                    <a href="https://www.djangoproject.com/"><img src="{% static 'weather/django-13-1175187.png' %}" width="320" alt=""></a> 
+                </div>
+                <div class="col-md-3">
+                    <a href="https://getbootstrap.com/"><img src="{% static 'weather/bootstrap-logo-vector-png-bootstrap-logo-512.jpg' %}" width="300" alt=""></a> 
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+   
+   
+   
+  
+      <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.0/js/mdb.min.js"></script>
+</body>
+     
+
+</html>

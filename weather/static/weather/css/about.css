@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Boogaloo&display=swap');
+.navbar{
+    font-family: 'Boogaloo', cursive;
+    font-size: 15pt;
+
+}
+.kepala{
+    font-family: 'Boogaloo', cursive;
+    font-size: 25pt;
+    margin-bottom:0.15px
+}
+.konten{
+    font-family: 'Boogaloo', cursive;
+    font-size: 20pt;
+}
+
+.sapp{
+    font-family: 'Bogaloo',cursive
+}
