@@ -12,7 +12,7 @@ How to use or install this app on your computer?
 ### 1. Install the requirement.txt on your computer using pip
 
 ```python
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 ### 2.  After install all the requirement.txt extract the project and open the project, type this on your terminal 
