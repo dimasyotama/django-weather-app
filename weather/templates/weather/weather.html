@@ -14,7 +14,7 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.0/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />
-    <link rel="stylesheet" href="{% static 'weather/css/weather.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">    <link rel="stylesheet" href="{% static 'weather/css/weather.css' %}">
 </head>
 
 <body>
@@ -45,6 +45,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{% url 'help' %}">How To</a>
                         </li>
+                        <li class="nav-item" id="refresh" style="float: right;">
+                            <a class="nav-link" ><span><i class="fa fa-refresh"></i></span></a>
+                        </li>
+                        
                     </ul>
                 </div>
                 <!-- <a href="" class="btn btn-md btn-danger"><i class="fa fa-trash" aria-hidden="true"></i><span> Delete All Data </span></a> -->
@@ -52,6 +56,7 @@
             
             </nav>
             <!--/.Navbar-->
+
             <style>
                 .column{
                     padding:15px
@@ -66,7 +71,6 @@
                </div>
            </div>
  
-        
     </section>
     <section class="section">
         <div class="container">
@@ -79,7 +83,7 @@
                                 {{ form.name }}
                             </div>                                
                             <button class="button is-info">
-                                <i class="fa fa-plus"></i><span> Add City</span></button>
+                                <i class="fa fa-plus"></i><span>Add City</span></button>
                             </div>
                         </div>
                         
@@ -137,6 +141,4 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.0/js/mdb.min.js"></script>
 </body>
-     
-
 </html>
