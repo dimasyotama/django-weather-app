@@ -3,7 +3,7 @@
 Project is created with
 * [Django 2.2](https://docs.djangoproject.com/en/2.2/)
 * [Bootstrap 4](https://getbootstrap.com/)
-* [OponWeatherMap](https://openweathermap.org/)
+* [OpenWeatherMap](https://openweathermap.org/)
 
 This is a application to check weather every city around the world.For Backend using Django Framework and Front End using Bootstrap and also i use openweather for consume the API
 i put requirements.txt for the requirement that i have for this application.[Live App](https://dimasyot.pythonanywhere.com/)
