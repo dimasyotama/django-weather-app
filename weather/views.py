@@ -8,7 +8,7 @@ from django.urls import reverse_lazy
 
 
 def index(request):
-    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid={YOUR API KEY}'
+    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=1be6324f259e2d5ad5e3f216c7627890'
     err_msg = ''
     message = ''
     message_class = ''
