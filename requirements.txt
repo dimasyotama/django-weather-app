@@ -1,7 +1,10 @@
+asgiref==3.7.2
 astroid==2.2.5
+backports.zoneinfo==0.2.1
 certifi==2023.7.22
 chardet==3.0.4
-Django==2.2.13
+charset-normalizer==3.3.2
+Django==4.2.9
 django-crispy-forms==1.7.2
 idna==2.8
 isort==4.3.20
@@ -9,10 +12,13 @@ lazy-object-proxy==1.4.1
 mccabe==0.6.1
 mysqlclient==1.3.14
 psycopg2==2.8.6
+python-decouple==3.8
+python-dotenv==1.0.0
 pytz==2019.1
 requests==2.31.0
 six==1.12.0
 sqlparse==0.4.4
 typed-ast==1.4.0
+typing_extensions==4.9.0
 urllib3==1.25.3
 wrapt==1.11.2

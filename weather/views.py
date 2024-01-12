@@ -16,6 +16,7 @@ def index(request):
         form = CityForm(request.POST)
         if form.is_valid():
             new_city = form.cleaned_data['name']
+            print(new_city)
             existing_city_count = city.objects.filter(name=new_city).count()
             if existing_city_count == 0:
                 r = requests.get(url.format(new_city)).json()
