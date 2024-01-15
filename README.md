@@ -1,7 +1,7 @@
 # django-weather-app
 
 Project is created with
-* [Django 2.2](https://docs.djangoproject.com/en/4.2/)
+* [Django 4.2](https://docs.djangoproject.com/en/4.2/)
 * [Bootstrap 4](https://getbootstrap.com/)
 * [OpenWeatherMap](https://openweathermap.org/)
 
